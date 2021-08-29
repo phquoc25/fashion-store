@@ -7,9 +7,7 @@
 .logo{
 	float:left;
 }
-.top-nav{
-	float:left;
-}
+
 .header-grid ul li{
 	display:inline-block;
 	padding:1.4em 1em;
@@ -22,9 +20,7 @@
 .header-grid ul li a:hover{
 	color:#bc3726;
 }
-.search{
-	float:right;
-}
+
 .ad-right {
 	float:right;
 	padding: 0.7em 0;
@@ -91,54 +87,3 @@ a.sign-up:hover{
 .header-bottom-bottom{
 	background:#c3c3c3;
 }
-.top-nav ul li{
-	display:inline-block;
-	padding: 1em;
-	border-right: 1px solid #A7A5A5;
-}
-.top-nav ul li a{
-	text-decoration:none;
-	color:#000;
-	font-size:1.2em;
-	font-family: 'Oswald', sans-serif;
-}
-.top-nav ul li a:hover,.top-nav ul li.active a{
-	color:#fff;
-}
-
-.search {
-    margin: 0.8em 0.8em 0 0em;
-    border-radius: 25px;
-    -webkit-border-radius: 25px;
-    -o-border-radius: 25px;
-    -moz-border-radius: 25px;
-    -ms-border-radius: 25px;
-    position: relative;
-    background: #fff;
-    padding: 5px 0px;
-    width: 15%;
-    float: right;
-}
-
-.search input[type="text"] {
-    outline: none;
-    padding-left: 10px;
-    background: none;
-    width: 79.33%;
-    border: none;
-    font-size: 1em;
-    color: #888;
-}
-
-.search input[type="submit"] {
-    width: 20px;
-    height: 20px;
-    background: url(/assets/images/img-sprite.png) 0px 0px;
-    padding: 0px 10px;
-    border: none;
-    cursor: pointer;
-    position: absolute;
-    outline: none;
-    margin: 1px 0px 0px 6px;
-}
-

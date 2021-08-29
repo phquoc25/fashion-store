@@ -26,7 +26,11 @@
     <div class="container">
       <div class="header-bottom">
           <div class="logo">
-              <a routerLink=""><img src="assets/images/logo.png" alt=" "></a>
+              <a 
+                routerLink="" 
+                routerLinkActive="active"
+                ><img src="assets/images/logo.png" alt=" ">
+              </a>
           </div>
           <div class="ad-right">
               <img class="img-responsive" src="assets/images/ad.png" alt=" ">
@@ -34,32 +38,7 @@
           <div class="clearfix"></div>
       </div>
       <div class="header-bottom-bottom">
-          <div class="top-nav">
-              <span class="menu"> </span>
-              <ul>
-                  <li class="active"><a routerLink="">HOME </a></li>
-                  <li><a routerLink="men">MEN</a></li>
-                  <li><a routerLink="women">WOMEN</a></li>
-                  <li><a routerLink="collections">COLLECTION</a></li>
-                  <li><a routerLink="collections">STORE PRODUCTS</a></li>
-                  <li><a routerLink="collections">LATEST PRODUCT</a></li>
-              </ul>
-              <script>
-                  $("span.menu").click(function () {
-                      $(".top-nav ul").slideToggle(500, function () {
-                      });
-                  });
-              </script>
-  
-              <div class="clearfix"></div>
-          </div>
-          <div class="search">
-              <form>
-                  <input type="text" value="Search" onfocus="this.value = '';"
-                         onblur="if (this.value == '') {this.value = '';}">
-                  <input type="submit" value="">
-              </form>
-          </div>
+          <app-navbar></app-navbar>
           <div class="clearfix"></div>
       </div>
     </div>

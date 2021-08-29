@@ -9,6 +9,7 @@ import { FooterComponent } from './footer/footer.component';
 import { MenComponent } from './men/men.component';
 import { WomenComponent } from './women/women.component';
 import { CollectionComponent } from './collection/collection.component';
+import { NavbarComponent } from './navbar/navbar.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { CollectionComponent } from './collection/collection.component';
     FooterComponent,
     MenComponent,
     WomenComponent,
-    CollectionComponent
+    CollectionComponent,
+    NavbarComponent
   ],
   imports: [
     BrowserModule,
