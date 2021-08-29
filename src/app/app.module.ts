@@ -7,6 +7,7 @@ import { HeaderComponent } from './header/header.component';
 import { HomeComponent } from './home/home.component';
 import { FooterComponent } from './footer/footer.component';
 import { MenComponent } from './men/men.component';
+import { WomenComponent } from './women/women.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { MenComponent } from './men/men.component';
     HeaderComponent,
     HomeComponent,
     FooterComponent,
-    MenComponent
+    MenComponent,
+    WomenComponent
   ],
   imports: [
     BrowserModule,
