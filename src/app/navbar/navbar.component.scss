@@ -1,24 +1,25 @@
-.top-nav{
-	float:left;
+.top-nav {
+    float: left;
 }
 
-.search{
-	float:right;
+.search {
+    float: right;
 }
 
-.top-nav ul li{
-	display:inline-block;
-	padding: 1em;
-	border-right: 1px solid #A7A5A5;
+.top-nav ul li {
+    display: inline-block;
+    padding: 1em;
+    border-right: 1px solid #a7a5a5;
 }
-.top-nav ul li a{
-	text-decoration:none;
-	color:#000;
-	font-size:1.2em;
-	font-family: 'Oswald', sans-serif;
+.top-nav ul li a {
+    text-decoration: none;
+    color: #000;
+    font-size: 1.2em;
+    font-family: 'Oswald', sans-serif;
 }
-.top-nav ul li a:hover,.top-nav ul li a.active{
-	color:#fff;
+.top-nav ul li a:hover,
+.top-nav ul li a.active {
+    color: #fff;
 }
 
 .search {
@@ -35,7 +36,7 @@
     float: right;
 }
 
-.search input[type="text"] {
+.search input[type='text'] {
     outline: none;
     padding-left: 10px;
     background: none;
@@ -45,7 +46,7 @@
     color: #888;
 }
 
-.search input[type="submit"] {
+.search input[type='submit'] {
     width: 20px;
     height: 20px;
     background: url(/assets/images/img-sprite.png) 0px 0px;

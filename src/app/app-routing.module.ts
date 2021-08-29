@@ -6,14 +6,14 @@ import { HomeComponent } from './home/home.component';
 import { MenComponent } from './men/men.component';
 
 const routes: Routes = [
-  { path: '', component: HomeComponent},
-  { path: 'men', component: MenComponent},
-  { path: 'women', component: WomenComponent},
-  { path: 'collections', component: CollectionComponent},
+    { path: '', component: HomeComponent },
+    { path: 'men', component: MenComponent },
+    { path: 'women', component: WomenComponent },
+    { path: 'collections', component: CollectionComponent },
 ];
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes)],
-  exports: [RouterModule]
+    imports: [RouterModule.forRoot(routes)],
+    exports: [RouterModule],
 })
-export class AppRoutingModule { }
+export class AppRoutingModule {}
