@@ -1,20 +1,1018 @@
-body{
-	background:#f6f6f4;
-	font-family: 'Open Sans', sans-serif;
+body {
+  background: #f6f6f4;
+  font-family: "Open Sans", sans-serif;
 }
-body a{
-	transition: 0.5s all;
-	-webkit-transition: 0.5s all;
-	-o-transition: 0.5s all;
-	-moz-transition: 0.5s all;
-	-ms-transition: 0.5s all;
+body a {
+  transition: 0.5s all;
+  -webkit-transition: 0.5s all;
+  -o-transition: 0.5s all;
+  -moz-transition: 0.5s all;
+  -ms-transition: 0.5s all;
 }
 /*----*/
- ul{
-	padding: 0;
-	margin: 0;
+ul {
+  padding: 0;
+  margin: 0;
 }
-h2,h3,h4,h5,h6,p{
-	margin:0;
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
 }
-  
+
+/*--responsive media-quries--*/
+@media (max-width: 1440px) {
+}
+
+@media (max-width: 1336px) {
+}
+
+@media (max-width: 1280px) {
+  .nbs-flexisel-item {
+    margin-right: 8px;
+  }
+
+  .header-grid-right {
+    width: 55%;
+  }
+}
+
+@media (max-width: 1024px) {
+  .banner-matter {
+    left: 4em;
+    top: 8em;
+  }
+
+  .you {
+    left: 15em;
+  }
+
+  .col-d {
+    margin-right: 1.8%;
+  }
+
+  a.know-more {
+    bottom: 8px;
+  }
+
+  span.twitter-ic {
+    right: 4px;
+  }
+
+  .you-onto,
+  .you-two {
+    left: 14em;
+  }
+
+  .you-men,
+  .you-women {
+    width: 32%;
+  }
+
+  .para-grid {
+    margin: 0;
+  }
+
+  .article-bottom p {
+    height: 55px;
+    overflow: hidden;
+  }
+
+  p.para-in {
+    font-size: 1em;
+  }
+
+  .span1_of_1_des {
+    width: 52%;
+  }
+
+  .desc1 h3 {
+    font-size: 1.8em;
+  }
+}
+
+@media (max-width: 768px) {
+  .header-grid {
+    width: 40%;
+  }
+
+  .header-grid-right {
+    width: 60%;
+  }
+
+  .header-top {
+    text-align: center;
+  }
+
+  .header-grid-right input[type="text"] {
+    width: 26%;
+    margin-right: 8px;
+  }
+
+  a.sign-up {
+    padding: 4px 0px 4px 4px;
+  }
+
+  .header-grid-right input[type="submit"] {
+    width: 9%;
+    margin-right: 12px;
+  }
+
+  .header-grid ul li {
+    padding: 1.4em 0.3em;
+  }
+
+  .search {
+    width: 20%;
+    margin: 1em 0.8em 1em 0;
+  }
+
+  a.sign-in {
+    width: 14%;
+  }
+
+  .search input[type="submit"] {
+    margin: 1px 0px 0px 1px;
+  }
+
+  .col-d {
+    width: 100%;
+  }
+
+  .col-m-left {
+    width: 100%;
+  }
+
+  .col-m-left {
+    width: 50%;
+    margin: 0 auto;
+  }
+
+  .you-onto,
+  .you-two {
+    left: 10em;
+    width: 70px;
+    height: 70px;
+  }
+
+  .you-onto span,
+  .you-two span {
+    font-size: 2.5em;
+    height: 35px;
+  }
+
+  .banner_right {
+    float: none;
+    width: 100%;
+    margin: 2em 0em 0em;
+  }
+
+  .in-product {
+    float: none;
+    width: 62%;
+    margin: 0 auto;
+  }
+
+  .span1_of_1_des {
+    float: none;
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .grid {
+    float: none;
+    width: 100%;
+  }
+
+  .zoom-img {
+    margin: 0 auto;
+  }
+
+  .article-bottom {
+    padding: 1em 0 0;
+  }
+
+  .article-para {
+    padding: 1em 0;
+  }
+
+  .wmuSliderPrev,
+  .wmuSliderNext {
+    top: 56%;
+  }
+
+  .contact-left {
+    padding: 0;
+  }
+
+  .products_top {
+    padding: 3em 0;
+  }
+
+  .article-bottom h6 a {
+    font-size: 1.4em;
+  }
+
+  .privacy-bottom h5 a {
+    font-size: 1.3em;
+  }
+
+  .price-on {
+    padding: 0;
+  }
+
+  .article-head {
+    padding: 0;
+  }
+}
+
+@media (max-width: 640px) {
+  .header-grid {
+    width: 44%;
+  }
+
+  .header-grid-right {
+    width: 25%;
+    padding: 8px 0;
+  }
+
+  a.sign-in {
+    width: 44%;
+  }
+
+  a.sign-up {
+    width: 44%;
+  }
+
+  .header-grid-right input[type="text"],
+  .header-grid-right input[type="submit"] {
+    display: none;
+  }
+
+  .ad-right {
+    padding: 1.2em 0;
+    width: 62%;
+  }
+
+  .banner-matter {
+    top: 8em;
+  }
+
+  .you {
+    left: 12em;
+  }
+
+  p.para-in {
+    font-size: 0.9em;
+    bottom: 12px;
+  }
+
+  .you-in {
+    left: 9em;
+  }
+
+  .you-para p {
+    font-size: 0.8em;
+  }
+
+  .footer {
+    padding: 1em 0;
+    text-align: center;
+  }
+
+  .class-footer {
+    float: none;
+  }
+
+  .footer-left {
+    float: none;
+  }
+
+  .footer p {
+    margin: 0.5em 0;
+  }
+
+  .you-onto,
+  .you-two {
+    left: 8em;
+    width: 55px;
+    height: 55px;
+    top: 1em;
+  }
+
+  .you-onto span,
+  .you-two span {
+    font-size: 2em;
+    height: 29px;
+  }
+
+  .you-onto small,
+  .you-two small {
+    font-size: 1em;
+  }
+
+  .you-men p,
+  .you-women p {
+    font-size: 0.8em;
+  }
+
+  .in-product {
+    width: 82%;
+  }
+
+  a.to-cart {
+    font-size: 1.1em;
+    padding: 0.4em 0.7em;
+  }
+
+  .tab_desc1 h3 a {
+    font-size: 1em;
+  }
+
+  .products_top {
+    padding: 2em 0;
+  }
+
+  .mens-toolbar .sort {
+    width: 26%;
+  }
+
+  .form-in a {
+    font-size: 1.1em;
+    padding: 0.4em 0.8em;
+  }
+
+  .desc1 h3 {
+    font-size: 1.6em;
+  }
+
+  .sap_tabs {
+    padding: 0em 0 3em;
+  }
+
+  .article-top h3 {
+    font-size: 2.5em;
+  }
+
+  .contact-in h3 {
+    font-size: 2.5em;
+  }
+
+  .privacy-top h3 {
+    font-size: 2.5em;
+  }
+
+  .privacy-bottom {
+    padding: 1em 0 0;
+  }
+
+  .search {
+    width: 25%;
+  }
+
+  .header-grid ul li {
+    padding: 1em 0.3em;
+  }
+
+  .col-m-left {
+    width: 60%;
+  }
+}
+
+@media (max-width: 480px) {
+  a.sign-up {
+    font-size: 1em;
+    width: 100%;
+  }
+
+  .header-grid {
+    width: 54%;
+  }
+
+  .header-grid ul li a {
+    font-size: 1em;
+  }
+
+  .header-grid-right {
+    width: 15%;
+  }
+
+  a.sign-in {
+    display: none;
+  }
+
+  .header-grid-right label {
+    display: none;
+  }
+
+  .ad-right {
+    display: none;
+  }
+
+  .logo {
+    float: none;
+    text-align: center;
+  }
+
+  .search {
+    width: 34%;
+  }
+
+  .banner-matter {
+    top: 4em;
+    left: 2em;
+  }
+
+  .banner {
+    min-height: 290px;
+  }
+
+  .banner-matter h2 {
+    font-size: 2.7em;
+  }
+
+  .banner-matter label {
+    font-size: 1.3em;
+  }
+
+  .banner-matter p {
+    font-size: 1.2em;
+  }
+
+  .you {
+    width: 75px;
+    height: 75px;
+    top: 10em;
+    left: 7em;
+  }
+
+  .you span {
+    font-size: 2.7em;
+    height: 44px;
+  }
+
+  p.para-in {
+    bottom: 5px;
+    left: 12px;
+    width: 44%;
+    height: 20px;
+    overflow: hidden;
+  }
+
+  .para-an h3 {
+    font-size: 1.6em;
+  }
+
+  .you-para {
+    width: 48%;
+    margin-right: 2%;
+    padding: 0 0 1em;
+  }
+
+  .col-m-left {
+    width: 80%;
+  }
+
+  .buy-an h3 {
+    font-size: 1.3em;
+  }
+
+  .in-line {
+    padding: 1em 0;
+  }
+
+  .you-men,
+  .you-women {
+    width: 48%;
+    margin-right: 2%;
+    padding: 0 0 1em;
+  }
+
+  .you-onto,
+  .you-two {
+    left: 10em;
+  }
+
+  .para-all h3,
+  .para-all-in h3 {
+    font-size: 1.5em;
+  }
+
+  .wmuSlider {
+    min-height: 361px;
+  }
+
+  .banner_right h3 {
+    font-size: 1.3em;
+  }
+
+  p.nine {
+    font-size: 1.8em;
+  }
+
+  .tab_desc1 h3 a {
+    font-size: 0.8em;
+  }
+
+  .grid-4 {
+    margin-right: 2%;
+    width: 48%;
+  }
+
+  .grid-4:nth-child(9) {
+    display: none;
+  }
+
+  .article-top h3 {
+    font-size: 2em;
+  }
+
+  .article-top {
+    padding: 2em 0;
+  }
+
+  .privacy-top h3 {
+    font-size: 2em;
+  }
+
+  .privacy-top {
+    padding: 2em 0;
+  }
+
+  .contact-in h3 {
+    font-size: 2em;
+  }
+
+  .contact {
+    padding: 1.5em 0 2em;
+  }
+
+  .contact-right h5 {
+    font-size: 1.5em;
+  }
+
+  .nbs-flexisel-container {
+    padding: 1em 0;
+  }
+
+  .in-left {
+    min-height: 280px;
+  }
+
+  p.code {
+    font-size: 1.3em;
+    top: 38px;
+  }
+
+  .hide-in {
+    text-align: center;
+  }
+
+  .register {
+    padding: 2em 0;
+  }
+
+  .single {
+    padding: 2em 0;
+  }
+}
+
+@media (max-width: 320px) {
+  .header-grid-right {
+    width: 21%;
+  }
+
+  .header-grid {
+    width: 79%;
+  }
+
+  .header-grid ul li {
+    padding: 0.8em 0.1em;
+  }
+
+  .search {
+    width: 44%;
+    margin: 0.7em 0.8em 0.6em 0;
+  }
+
+  .top-nav span.menu {
+    padding: 0.7em 1em 0.4em;
+  }
+
+  .search input[type="text"] {
+    font-size: 0.9em;
+  }
+
+  .search input[type="submit"] {
+    margin: 0;
+  }
+
+  .banner {
+    min-height: 175px;
+  }
+
+  .banner-matter {
+    top: 2em;
+    left: 1em;
+  }
+
+  .banner-matter label {
+    font-size: 1em;
+  }
+
+  .banner-matter h2 {
+    font-size: 1.7em;
+  }
+
+  .banner-matter p {
+    font-size: 0.9em;
+  }
+
+  .you {
+    width: 50px;
+    height: 50px;
+    top: 6.5em;
+    left: 4.5em;
+  }
+
+  .you span {
+    font-size: 1.8em;
+    height: 28px;
+  }
+
+  .you span label {
+    font-size: 10px;
+  }
+
+  .you small {
+    font-size: 0.9em;
+  }
+
+  p.para-in {
+    font-size: 0.87em;
+    bottom: -1px;
+    left: 2px;
+    width: 47%;
+  }
+
+  .para-an h3 {
+    font-size: 1.2em;
+  }
+
+  .para-an p {
+    font-size: 0.9em;
+    padding: 0.5em 0;
+  }
+
+  .lady-in {
+    padding: 1em 0 0;
+  }
+
+  .you-para span {
+    font-size: 0.85em;
+  }
+
+  .you-in {
+    left: 6em;
+    top: 0.5em;
+    width: 40px;
+    height: 40px;
+  }
+
+  .you-in span {
+    font-size: 1.3em;
+    height: 17px;
+  }
+
+  .you-in span label {
+    nt-size: 9px;
+  }
+
+  .you-in small {
+    font-size: 0.8em;
+  }
+
+  .you-para p {
+    font-size: 0.9em;
+    height: 25px;
+    overflow: hidden;
+  }
+
+  label.cat-in {
+    display: none;
+  }
+
+  .col-m-left {
+    width: 100%;
+  }
+
+  p.no-more,
+  p.no-get {
+    font-size: 1em;
+  }
+
+  a.know-more {
+    bottom: 15px;
+    font-size: 1em;
+  }
+
+  .twitter-in h5 {
+    font-size: 1.3em;
+  }
+
+  .buy-an h3 {
+    font-size: 1.1em;
+  }
+
+  .buy-an p {
+    font-size: 0.85em;
+  }
+
+  .hide-in span {
+    font-size: 0.9em;
+  }
+
+  p.code {
+    font-size: 1.3em;
+    top: 29px;
+  }
+
+  .discount {
+    padding: 1em 0 0;
+  }
+
+  .up-date {
+    padding: 0.5em 0em;
+  }
+
+  .para-all h3,
+  .para-all-in h3 {
+    font-size: 1.2em;
+  }
+
+  .para-all p,
+  .para-all-in p {
+    font-size: 0.9em;
+  }
+
+  .you-men span,
+  .you-women span {
+    font-size: 0.85em;
+  }
+
+  .you-onto,
+  .you-two {
+    left: 6em;
+    top: 0.5em;
+    width: 40px;
+    height: 40px;
+  }
+
+  .you-onto span,
+  .you-two span {
+    font-size: 1.3em;
+    height: 17px;
+  }
+
+  .you-onto span label,
+  .you-two span label {
+    font-size: 9px;
+  }
+
+  .you-onto small,
+  .you-two small {
+    font-size: 0.8em;
+  }
+
+  .you-men p,
+  .you-women p {
+    font-size: 0.9em;
+    height: 25px;
+    overflow: hidden;
+  }
+
+  label.cat-in {
+    display: none;
+  }
+
+  .lady-in-on {
+    padding: 1em 0.8em;
+  }
+
+  .wmuSlider {
+    min-height: 222px;
+  }
+
+  .in-product {
+    width: 100%;
+  }
+
+  .banner_right h3 {
+    font-size: 1.1em;
+  }
+
+  p.nine {
+    font-size: 1.5em;
+  }
+
+  p.sit-in {
+    padding: 0em;
+    height: 110px;
+    overflow: hidden;
+    margin-bottom: 0.5em;
+  }
+
+  a.to-cart {
+    font-size: 1em;
+  }
+
+  .mens-toolbar .sort {
+    width: 59%;
+    float: none;
+  }
+
+  .pages {
+    float: none;
+  }
+
+  .limiter.visible-desktop {
+    margin: 3px 3em 0 0;
+  }
+
+  .tab_desc1 h3 a {
+    font-size: 0.78em;
+  }
+
+  a.to-cart img {
+    padding: 2px 0px 0px 5px;
+  }
+
+  .product_box1 {
+    margin: 0;
+  }
+
+  .products_top {
+    padding: 1em 0 0;
+  }
+
+  .product_right {
+    padding: 1em 0 0;
+  }
+
+  .sale_grid {
+    margin-bottom: 1em;
+  }
+
+  .desc1 h3 {
+    font-size: 1.3em;
+  }
+
+  .desc1 p {
+    font-size: 1em;
+    color: #767676;
+    line-height: 1.5em;
+    height: 82px;
+    overflow: hidden;
+  }
+
+  .desc1 h5 {
+    margin-top: 2%;
+  }
+
+  .available {
+    margin-top: 0;
+  }
+
+  .available h4 {
+    font-size: 1em;
+    color: #777;
+    margin-bottom: 0px;
+  }
+
+  .available li select {
+    margin-top: 6px;
+  }
+
+  .form-in {
+    margin-top: 1.5em;
+  }
+
+  .available span a {
+    padding-top: 20px;
+  }
+
+  .span_right {
+    float: left;
+    margin-top: 0em;
+  }
+
+  .share-desc {
+    padding: 10px 0;
+  }
+
+  .single_grid {
+    padding: 1em 0;
+  }
+
+  .facts {
+    padding: 1em;
+  }
+
+  .facts p {
+    height: 50px;
+    overflow: hidden;
+  }
+
+  .resp-tab-item {
+    padding: 8px;
+  }
+
+  .sap_tabs {
+    padding: 0em 0 1.5em;
+  }
+
+  .article-top h3,
+  .contact-in h3,
+  .privacy-top h3 {
+    font-size: 1.5em;
+  }
+
+  .article-bottom {
+    padding: 0em 0 0;
+  }
+
+  .article-bottom h6 a {
+    height: 17px;
+    overflow: hidden;
+    display: block;
+  }
+
+  .article-top {
+    padding: 1em 0;
+  }
+
+  .article-bottom p {
+    line-height: 1.5em;
+    height: 54px;
+  }
+
+  .contact-right h5 {
+    font-size: 1.3em;
+  }
+
+  .contact-in {
+    padding: 0em 0 1em;
+  }
+
+  .contact {
+    padding: 1em 0 0.5em;
+  }
+
+  .privacy-bottom h5 a {
+    height: 18px;
+    overflow: hidden;
+    display: block;
+  }
+
+  .privacy-bottom p {
+    height: 71px;
+    overflow: hidden;
+  }
+
+  .privacy-top {
+    padding: 1.5em 0;
+  }
+
+  .women-in {
+    padding: 1em 0;
+  }
+
+  .footer {
+    padding: 0.5em 0 1em;
+  }
+
+  .cool {
+    width: 134px;
+    height: 142px;
+    background-size: 135px;
+  }
+
+  .register {
+    padding: 1.5em 0;
+  }
+
+  .register-top-grid input[type="text"] {
+    width: 100%;
+  }
+
+  .register-but form input[type="submit"] {
+    padding: 0.6em 1.5em;
+  }
+
+  .single {
+    padding: 1em 0;
+  }
+}

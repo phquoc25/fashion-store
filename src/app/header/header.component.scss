@@ -35,7 +35,6 @@
 .header-grid-right{
 	float:right;
 	padding:15px 0;
-	width: 47.4%;
 }
 .header-grid-right label{
 	color:#fff;
@@ -107,16 +106,39 @@ a.sign-up:hover{
 	color:#fff;
 }
 
-/*--responsive media-quries--*/
-@media(max-width:1440px){
+.search {
+    margin: 0.8em 0.8em 0 0em;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -o-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    position: relative;
+    background: #fff;
+    padding: 5px 0px;
+    width: 15%;
+    float: right;
 }
-@media(max-width:1336px){
+
+.search input[type="text"] {
+    outline: none;
+    padding-left: 10px;
+    background: none;
+    width: 79.33%;
+    border: none;
+    font-size: 1em;
+    color: #888;
 }
-@media(max-width:1280px){
-  .nbs-flexisel-item{
-    margin-right:8px;
-  }
-  .header-grid-right {
-    width: 55%;
-  }
+
+.search input[type="submit"] {
+    width: 20px;
+    height: 20px;
+    background: url(/assets/images/img-sprite.png) 0px 0px;
+    padding: 0px 10px;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    outline: none;
+    margin: 1px 0px 0px 6px;
 }
+
