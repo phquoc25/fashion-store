@@ -2,55 +2,59 @@
     <span class="menu"> </span>
     <ul>
         <li>
-          <a 
-            routerLink="" 
-            routerLinkActive="active"
-            [routerLinkActiveOptions]="{ exact: true }"
-            >HOME 
-          </a>
+            <a 
+                routerLink="/" 
+                routerLinkActive="active" 
+                [routerLinkActiveOptions]="{ exact: true }">
+                HOME 
+            </a>
         </li>
         <li>
-          <a 
-            routerLink="men"
-            routerLinkActive="active"
-            >MEN
-          </a>
+            <a 
+                routerLink="men" 
+                routerLinkActive="active">
+                MEN 
+            </a>
         </li>
         <li>
-          <a 
-            routerLink="women"
-            routerLinkActive="active"
-            >WOMEN
-          </a>
+            <a 
+                routerLink="women" 
+                routerLinkActive="active">
+                WOMEN
+            </a>
         </li>
         <li>
-          <a 
-            routerLink="collections"
-            routerLinkActive="active"
-            >COLLECTION
-          </a>
+            <a 
+                routerLink="collections" 
+                routerLinkActive="active">
+                COLLECTION
+            </a>
         </li>
         <li>
-          <a 
-            routerLink="collections"
-            routerLinkActive="active"
-            >STORE PRODUCTS
-          </a>
+            <a 
+                routerLink="collections" 
+                routerLinkActive="active">
+                STORE PRODUCTS 
+            </a>
         </li>
         <li>
-          <a 
-            routerLink="collections"
-            routerLinkActive="active"
-            >LATEST PRODUCT
-          </a>
+            <a 
+                routerLink="collections" 
+                routerLinkActive="active">
+                LATEST PRODUCT
+            </a>
         </li>
     </ul>
     <div class="clearfix"></div>
 </div>
 <div class="search">
     <form>
-        <input type="text" value="Search" onfocus="this.value = '';"
-               onblur="if (this.value == '') {this.value = '';}">
-        <input type="submit" value="">
+        <input
+            type="text"
+            value="Search"
+            onfocus="this.value = '';"
+            onblur="if (this.value == '') {this.value = '';}"
+        />
+        <input type="submit" value="" />
     </form>
 </div>
