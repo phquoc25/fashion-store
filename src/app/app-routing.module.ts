@@ -1,3 +1,4 @@
+import { CollectionComponent } from './collection/collection.component';
 import { WomenComponent } from './women/women.component';
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
@@ -8,6 +9,7 @@ const routes: Routes = [
   { path: '', component: HomeComponent},
   { path: 'men', component: MenComponent},
   { path: 'women', component: WomenComponent},
+  { path: 'collections', component: CollectionComponent},
 ];
 
 @NgModule({
