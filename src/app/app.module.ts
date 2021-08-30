@@ -10,6 +10,7 @@ import { MenComponent } from './men/men.component';
 import { WomenComponent } from './women/women.component';
 import { CollectionComponent } from './collection/collection.component';
 import { NavbarComponent } from './navbar/navbar.component';
+import { BannerComponent } from './banner/banner.component';
 
 @NgModule({
     declarations: [
@@ -21,6 +22,7 @@ import { NavbarComponent } from './navbar/navbar.component';
         WomenComponent,
         CollectionComponent,
         NavbarComponent,
+        BannerComponent,
     ],
     imports: [BrowserModule, AppRoutingModule],
     providers: [],
