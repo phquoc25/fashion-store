@@ -17,3 +17,147 @@
 .in-line {
     padding: 2em 0;
 }
+
+.pic-in {
+    width: 100%;
+}
+
+/*----*/
+.in-left {
+    background: url(/assets/images/p111.jpg) 0px 0px;
+    width: 100%;
+    min-height: 425px;
+    background-size: cover;
+    display: block;
+    position: relative;
+}
+
+.cool {
+    background: url(/assets/images/get.png) 0px 0px no-repeat;
+    width: 175px;
+    height: 183px;
+    text-align: center;
+    position: absolute;
+    bottom: -2px;
+    right: 0em;
+}
+
+p.code {
+    font-size: 1.5em;
+    color: #c4c4c4;
+    text-transform: uppercase;
+    font-weight: 700;
+    position: absolute;
+    top: 46px;
+    left: 10px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.discount {
+    position: relative;
+    padding: 1.8em 0 0;
+}
+
+p.no-more {
+    font-size: 1.2em;
+    color: #636563;
+    line-height: 22px;
+    position: absolute;
+    top: 37px;
+    right: 27px;
+}
+
+p.no-more b {
+    font-size: 1.4em;
+    display: block;
+    font-weight: 400;
+}
+
+p.no-more span {
+    color: #bc3726;
+}
+
+p.no-get b {
+    color: #fff;
+}
+
+p.no-get {
+    color: #c3c3c3;
+    font-size: 1.3em;
+}
+a.know-more {
+    text-decoration: none;
+    font-size: 1.3em;
+    color: #fff;
+    background: #bc3726;
+    padding: 0.5em 1em 0.5em 0.5em;
+    position: absolute;
+    bottom: 33px;
+    right: 0;
+}
+
+a.know-more:hover {
+    background: #fd1e01;
+}
+
+/*----*/
+.twitter-in {
+    background: #fff;
+    padding: 1.8em 1.3em;
+    margin: 1.8em 0 0;
+    position: relative;
+}
+
+.twitter-in h5 {
+    color: #000;
+    font-size: 1.5em;
+    font-family: 'Oswald', sans-serif;
+    border-bottom: 1px solid #d0cdcd;
+}
+
+.up-date {
+    padding: 1em 0 1em;
+}
+
+.up-date p {
+    color: #000;
+    font-size: 0.9em;
+    font-weight: 600;
+}
+
+.up-date a {
+    color: #bc3726;
+    font-size: 0.9em;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+p.ago {
+    font-weight: 400;
+    color: #7e7e7e;
+}
+
+a.tweets {
+    text-decoration: none;
+    color: #000;
+    font-size: 1em;
+    float: right;
+    font-weight: 600;
+    border-bottom: 2px solid #d6d2d2;
+    min-height: 22px;
+}
+
+a.tweets:hover {
+    border-bottom: none;
+    color: #bc3726;
+}
+
+span.twitter-ic {
+    background: url(/assets/images/img-sprite.png) -152px 0px no-repeat;
+    width: 73px;
+    height: 70px;
+    text-align: center;
+    position: absolute;
+    right: 18px;
+    top: 12px;
+}
