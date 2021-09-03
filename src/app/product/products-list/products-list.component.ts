@@ -6,5 +6,6 @@ import { Component } from '@angular/core';
     styleUrls: ['./products-list.component.scss'],
 })
 export class ProductsListComponent {
+    nbProducts = [1, 2, 3, 4, 5, 6];
     constructor() {}
 }

@@ -4,60 +4,8 @@
         <p>Check our all latest products in this section.</p>
     </div>
     <div class="lady-in">
-        <div class="col-md-4 you-para">
-            <a href="single.html"><img class="img-responsive pic-in" src="assets/images/pi.jpg" alt=" " /></a>
-            <div class="you-in">
-                <span>15<label>%</label></span>
-                <small>off</small>
-            </div>
-            <p>Premium Denim Women's Hidden</p>
-            <span>$179.00 | <label class="cat-in"> </label> <a href="#">Add to Cart </a></span>
-        </div>
-        <div class="col-md-4 you-para">
-            <a href="single.html"><img class="img-responsive pic-in" src="assets/images/pi4.jpg" alt=" " /></a>
-            <div class="you-in">
-                <span>15<label>%</label></span>
-                <small>off</small>
-            </div>
-            <p>Premium Denim Women's Hidden</p>
-            <span>$179.00 | <label class="cat-in"> </label> <a href="#">Add to Cart </a></span>
-        </div>
-        <div class="col-md-4 you-para para-grid">
-            <a href="single.html"><img class="img-responsive pic-in" src="assets/images/pi5.jpg" alt=" " /></a>
-            <div class="you-in">
-                <span>15<label>%</label></span>
-                <small>off</small>
-            </div>
-            <p>Premium Denim Women's Hidden</p>
-            <span>$179.00 | <label class="cat-in"> </label> <a href="#">Add to Cart </a></span>
-        </div>
-
-        <div class="col-md-4 you-para">
-            <a href="single.html"><img class="img-responsive pic-in" src="assets/images/pi6.jpg" alt=" " /></a>
-            <div class="you-in">
-                <span>15<label>%</label></span>
-                <small>off</small>
-            </div>
-            <p>Premium Denim Women's Hidden</p>
-            <span>$179.00 | <label class="cat-in"> </label> <a href="#">Add to Cart </a></span>
-        </div>
-        <div class="col-md-4 you-para">
-            <a href="single.html"><img class="img-responsive pic-in" src="assets/images/pi5.jpg" alt=" " /></a>
-            <div class="you-in">
-                <span>15<label>%</label></span>
-                <small>off</small>
-            </div>
-            <p>Premium Denim Women's Hidden</p>
-            <span>$179.00 | <label class="cat-in"> </label> <a href="#">Add to Cart </a></span>
-        </div>
-        <div class="col-md-4 you-para para-grid">
-            <a href="single.html"><img class="img-responsive pic-in" src="assets/images/pi4.jpg" alt=" " /></a>
-            <div class="you-in">
-                <span>15<label>%</label></span>
-                <small>off</small>
-            </div>
-            <p>Premium Denim Women's Hidden</p>
-            <span>$179.00 | <label class="cat-in"> </label> <a href="#">Add to Cart </a></span>
+        <div *ngFor="let idx of nbProducts">
+            <app-product-card></app-product-card>
         </div>
         <div class="clearfix"></div>
     </div>
