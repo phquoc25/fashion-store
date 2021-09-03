@@ -4,8 +4,8 @@
         <p>Check our all latest products in this section.</p>
     </div>
     <div class="lady-in">
-        <div *ngFor="let idx of nbProducts">
-            <app-product-card></app-product-card>
+        <div *ngFor="let product of products">
+            <app-product-card [product]="product"></app-product-card>
         </div>
         <div class="clearfix"></div>
     </div>
