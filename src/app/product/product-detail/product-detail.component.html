@@ -3,26 +3,11 @@
         <div class="col-md-9">
             <div class="single_grid">
                 <div class="grid images_3_of_2">
-                    <ul id="etalage">
-                        <li>
-                            <a href="optionallink.html">
-                                <img class="etalage_thumb_image img-responsive" src="assets/images/sin1.jpg" alt="" />
-                                <img class="etalage_source_image img-responsive" src="assets/images/sin-1.jpg" alt="" />
-                            </a>
-                        </li>
-                        <li>
-                            <img class="etalage_thumb_image img-responsive" src="assets/images/sin2.jpg" alt="" />
-                            <img class="etalage_source_image img-responsive" src="assets/images/sin-2.jpg" alt="" />
-                        </li>
-                        <li>
-                            <img class="etalage_thumb_image img-responsive" src="assets/images/sin3.jpg" alt="" />
-                            <img class="etalage_source_image img-responsive" src="assets/images/sin-3.jpg" alt="" />
-                        </li>
-                        <li>
-                            <img class="etalage_thumb_image img-responsive" src="assets/images/sin4.jpg" alt="" />
-                            <img class="etalage_source_image img-responsive" src="assets/images/sin-4.jpg" alt="" />
-                        </li>
-                    </ul>
+                    <app-product-img-magnifier
+                        [thumbImage]="'assets/images/sin1.jpg'"
+                        [fullImage]="'assets/images/sin-1.jpg'"
+                    >
+                    </app-product-img-magnifier>
                     <div class="clearfix"></div>
                 </div>
                 <!---->
