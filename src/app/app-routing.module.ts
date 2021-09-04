@@ -1,3 +1,4 @@
+import { ProductDetailComponent } from './product/product-detail/product-detail.component';
 import { CollectionComponent } from './collection/collection.component';
 import { WomenComponent } from './women/women.component';
 import { NgModule } from '@angular/core';
@@ -11,6 +12,8 @@ const routes: Routes = [
     { path: 'men', component: MenComponent },
     { path: 'women', component: WomenComponent },
     { path: 'collections', component: CollectionComponent },
+    { path: 'products/:id', component: ProductDetailComponent },
+    { path: '**', redirectTo: '/home' },
 ];
 
 @NgModule({
