@@ -10,6 +10,7 @@ import { ProductDetailTabsComponent } from './product-detail-tabs/product-detail
 import { ProductShareComponent } from './product-share/product-share.component';
 import { OrderOptionsComponent } from './order-options/order-options.component';
 import { MatTabsModule } from '@angular/material/tabs';
+import { CategorySelectorComponent } from './category-selector/category-selector.component';
 
 @NgModule({
     declarations: [
@@ -20,6 +21,7 @@ import { MatTabsModule } from '@angular/material/tabs';
         ProductDetailTabsComponent,
         ProductShareComponent,
         OrderOptionsComponent,
+        CategorySelectorComponent,
     ],
     imports: [CommonModule, AppRoutingModule, ImgMagnifier, MatTabsModule],
     exports: [ProductsListComponent],

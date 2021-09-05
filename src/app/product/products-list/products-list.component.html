@@ -3,10 +3,8 @@
         <h3>LATEST ARRIVALS</h3>
         <p>Check our all latest products in this section.</p>
     </div>
-    <div class="lady-in">
-        <div *ngFor="let product of products">
-            <app-product-card [product]="product"></app-product-card>
-        </div>
+    <div class="lady-in row">
+        <app-product-card class="col-md-4" *ngFor="let product of products" [product]="product"></app-product-card>
         <div class="clearfix"></div>
     </div>
 </div>

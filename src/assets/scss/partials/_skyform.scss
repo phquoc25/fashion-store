@@ -1,0 +1,28 @@
+/* radios and checkboxes */
+.sky-form {
+    margin-top: -10px;
+    .row1 {
+        outline: none;
+        padding: 20px;
+        overflow: auto;
+        height: 200px;
+    }
+    h4 {
+        margin-top: 10px;
+        background: #ececec;
+        padding: 10px 20px;
+        color: #333333;
+        text-transform: uppercase;
+        margin-bottom: 0;
+        font-size: 16px;
+    }
+    section {
+        margin-bottom: 20px;
+    }
+}
+
+.sky-form .label {
+    display: block;
+    margin-bottom: 6px;
+    line-height: 19px;
+}
