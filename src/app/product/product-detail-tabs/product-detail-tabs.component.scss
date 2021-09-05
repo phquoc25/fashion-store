@@ -1,0 +1,26 @@
+/* start tabs */
+.sap_tabs {
+    padding: 1em 0;
+}
+
+.facts {
+    border: 1px solid #d4d1d1;
+    padding: 2em;
+    p {
+        color: #767676;
+        font-size: 1em;
+        line-height: 1.7em;
+        padding: 0 0 1em;
+    }
+
+    ul li {
+        list-style: none;
+        color: #767676;
+        font-size: 1em;
+        padding: 0.3em 0;
+    }
+}
+
+:host ::ng-deep .mat-tab-label-content {
+    text-transform: uppercase;
+}

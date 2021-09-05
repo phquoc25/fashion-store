@@ -9,6 +9,7 @@ import { ProductImgMagnifierComponent } from './product-img-magnifier/product-im
 import { ProductDetailTabsComponent } from './product-detail-tabs/product-detail-tabs.component';
 import { ProductShareComponent } from './product-share/product-share.component';
 import { OrderOptionsComponent } from './order-options/order-options.component';
+import { MatTabsModule } from '@angular/material/tabs';
 
 @NgModule({
     declarations: [
@@ -20,7 +21,7 @@ import { OrderOptionsComponent } from './order-options/order-options.component';
         ProductShareComponent,
         OrderOptionsComponent,
     ],
-    imports: [CommonModule, AppRoutingModule, ImgMagnifier],
+    imports: [CommonModule, AppRoutingModule, ImgMagnifier, MatTabsModule],
     exports: [ProductsListComponent],
 })
 export class ProductModule {}

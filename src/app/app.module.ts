@@ -12,6 +12,7 @@ import { WomenComponent } from './women/women.component';
 import { CollectionComponent } from './collection/collection.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { BannerComponent } from './banner/banner.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
     declarations: [
@@ -25,7 +26,7 @@ import { BannerComponent } from './banner/banner.component';
         NavbarComponent,
         BannerComponent,
     ],
-    imports: [BrowserModule, AppRoutingModule, ProductModule],
+    imports: [BrowserModule, AppRoutingModule, ProductModule, BrowserAnimationsModule],
     providers: [],
     bootstrap: [AppComponent],
 })
