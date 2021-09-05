@@ -1,0 +1,40 @@
+/* start share-des */
+.share-desc {
+    padding: 20px 0;
+}
+
+.share h4 {
+    font-size: 1.1em;
+    color: #777;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    text-shadow: 0 1px 0 #ffffff;
+}
+
+.share_nav {
+    float: left;
+    li {
+        display: inline-block;
+        margin: 5px 6px;
+        a {
+            background: #9c9c9c;
+            padding: 10px;
+            display: block;
+            -webkit-transition: all 0.3s ease-out;
+            -moz-transition: all 0.3s ease-out;
+            -ms-transition: all 0.3s ease-out;
+            -o-transition: all 0.3s ease-out;
+            transition: all 0.3s ease-out;
+            border-radius: 30px;
+            -webkit-border-radius: 30px;
+            -moz-border-radius: 30px;
+            -o-border-radius: 30px;
+        }
+        a:hover {
+            background: #bc3726;
+        }
+        img {
+            vertical-align: middle;
+        }
+    }
+}
