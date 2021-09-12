@@ -1,0 +1,12 @@
+<section class="sky-form">
+    <h4>Colors</h4>
+    <div class="color-picker row">
+        <span
+            *ngFor="let color of colors"
+            class="color-picker__item"
+            [ngStyle]="{ background: color.code }"
+            [ngClass]="{ 'is-selected': selectedColor.code === color.code }"
+            (click)="selectColor(color)"
+        ></span>
+    </div>
+</section>

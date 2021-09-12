@@ -12,6 +12,7 @@ import { OrderOptionsComponent } from './order-options/order-options.component';
 import { MatTabsModule } from '@angular/material/tabs';
 import { MatCheckboxModule } from '@angular/material/checkbox';
 import { CategorySelectorComponent } from './category-selector/category-selector.component';
+import { ColorSelectorComponent } from './color-selector/color-selector.component';
 
 @NgModule({
     declarations: [
@@ -23,6 +24,7 @@ import { CategorySelectorComponent } from './category-selector/category-selector
         ProductShareComponent,
         OrderOptionsComponent,
         CategorySelectorComponent,
+        ColorSelectorComponent,
     ],
     imports: [CommonModule, AppRoutingModule, ImgMagnifier, MatTabsModule, MatCheckboxModule],
     exports: [ProductsListComponent],

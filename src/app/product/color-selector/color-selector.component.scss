@@ -1,0 +1,25 @@
+/*---color-picker---*/
+.color-picker {
+    padding: 20px;
+    &__item {
+        width: 28px;
+        height: 28px;
+        margin: 0 0 5px 5px;
+        cursor: pointer;
+        border-radius: 3px;
+    }
+
+    .is-selected {
+        position: relative;
+        &:before {
+            background: url('/assets/images/check_circle.svg') no-repeat center center;
+            content: '';
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            width: 14px;
+            height: 14px;
+            margin: 2px;
+        }
+    }
+}
