@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Product } from './../shared/product.model';
+import { Component, Input } from '@angular/core';
 
 @Component({
     selector: 'app-product-detail-tabs',
@@ -6,5 +7,6 @@ import { Component } from '@angular/core';
     styleUrls: ['./product-detail-tabs.component.scss'],
 })
 export class ProductDetailTabsComponent {
+    @Input() product: Product;
     constructor() {}
 }
