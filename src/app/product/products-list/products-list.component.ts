@@ -1,3 +1,4 @@
+import { COLORS } from './../shared/color.model';
 import { Product } from './../shared/product.model';
 import { Component, OnInit } from '@angular/core';
 
@@ -18,6 +19,7 @@ export class ProductsListComponent implements OnInit {
                 price: 179,
                 promotion: 15,
                 image: 'pi4.jpg',
+                color: COLORS.BLACK,
             },
             {
                 id: 2,
@@ -26,6 +28,7 @@ export class ProductsListComponent implements OnInit {
                 price: 179,
                 promotion: 15,
                 image: 'pi.jpg',
+                color: COLORS.YELLOW,
             },
             {
                 id: 3,
@@ -34,6 +37,7 @@ export class ProductsListComponent implements OnInit {
                 price: 179,
                 promotion: 15,
                 image: 'pi5.jpg',
+                color: COLORS.ORANGE,
             },
             {
                 id: 4,
@@ -42,6 +46,7 @@ export class ProductsListComponent implements OnInit {
                 price: 179,
                 promotion: 15,
                 image: 'pi6.jpg',
+                color: COLORS.PRUNE,
             },
             {
                 id: 5,
@@ -50,6 +55,7 @@ export class ProductsListComponent implements OnInit {
                 price: 179,
                 promotion: 15,
                 image: 'pi4.jpg',
+                color: COLORS.PURPLE,
             },
             {
                 id: 6,
@@ -58,6 +64,7 @@ export class ProductsListComponent implements OnInit {
                 price: 179,
                 promotion: 15,
                 image: 'pi4.jpg',
+                color: COLORS.PINK,
             },
         ];
     }

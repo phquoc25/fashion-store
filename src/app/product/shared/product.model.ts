@@ -1,3 +1,5 @@
+import { Color } from './color.model';
+
 export interface Product {
     id: number;
     title: string;
@@ -5,4 +7,5 @@ export interface Product {
     price: number;
     promotion: number;
     image: string;
+    color: Color;
 }

@@ -31,7 +31,7 @@
         <div class="col-md-3">
             <div class="w_sidebar">
                 <app-category-selector></app-category-selector>
-                <app-color-selector></app-color-selector>
+                <app-color-selector read-only="true" [(selectedColor)]="product.color"></app-color-selector>
             </div>
         </div>
     </div>

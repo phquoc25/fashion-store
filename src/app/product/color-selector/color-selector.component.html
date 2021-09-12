@@ -5,8 +5,8 @@
             *ngFor="let color of colors"
             class="color-picker__item"
             [ngStyle]="{ background: color.code }"
-            [ngClass]="{ 'is-selected': selectedColor.code === color.code }"
-            (click)="selectColor(color)"
+            [ngClass]="{ 'is-selected': selectedColor.code === color.code, 'is-disabled': !!readOnly }"
+            (click)="onColorSelected(color)"
         ></span>
     </div>
 </section>

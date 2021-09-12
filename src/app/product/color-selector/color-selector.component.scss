@@ -9,7 +9,13 @@
         border-radius: 3px;
     }
 
+    .is-disabled {
+        cursor: not-allowed;
+        opacity: 0.5;
+    }
+
     .is-selected {
+        opacity: 1;
         position: relative;
         &:before {
             background: url('/assets/images/check_circle.svg') no-repeat center center;
