@@ -1,71 +1,25 @@
-import { COLORS } from './../shared/color.model';
+import { SharedSubscriptionComponent } from './../../shared/shared-subscription/shared-subscription.component';
+import { ProductsService } from './../shared/products.service';
 import { Product } from './../shared/product.model';
 import { Component, OnInit } from '@angular/core';
+import { takeUntil } from 'rxjs/operators';
 
 @Component({
     selector: 'app-products-list',
     templateUrl: './products-list.component.html',
     styleUrls: ['./products-list.component.scss'],
 })
-export class ProductsListComponent implements OnInit {
+export class ProductsListComponent extends SharedSubscriptionComponent implements OnInit {
     products: Product[];
-    constructor() {}
+    constructor(private productsService: ProductsService) {
+        super();
+    }
     ngOnInit(): void {
-        this.products = [
-            {
-                id: 1,
-                title: "Premium Denim Women's Hidden",
-                description: 'product description',
-                price: 179,
-                promotion: 15,
-                image: 'pi4.jpg',
-                color: COLORS.BLACK,
-            },
-            {
-                id: 2,
-                title: "Premium Denim Women's Hidden",
-                description: 'product description',
-                price: 179,
-                promotion: 15,
-                image: 'pi.jpg',
-                color: COLORS.YELLOW,
-            },
-            {
-                id: 3,
-                title: "Premium Denim Women's Hidden",
-                description: 'product description',
-                price: 179,
-                promotion: 15,
-                image: 'pi5.jpg',
-                color: COLORS.ORANGE,
-            },
-            {
-                id: 4,
-                title: "Premium Denim Women's Hidden",
-                description: 'product description',
-                price: 179,
-                promotion: 15,
-                image: 'pi6.jpg',
-                color: COLORS.PRUNE,
-            },
-            {
-                id: 5,
-                title: "Premium Denim Women's Hidden",
-                description: 'product description',
-                price: 179,
-                promotion: 15,
-                image: 'pi4.jpg',
-                color: COLORS.PURPLE,
-            },
-            {
-                id: 6,
-                title: "Premium Denim Women's Hidden",
-                description: 'product description',
-                price: 179,
-                promotion: 15,
-                image: 'pi4.jpg',
-                color: COLORS.PINK,
-            },
-        ];
+        this.productsService
+            .getAllProducts()
+            .pipe(takeUntil(this.notifier))
+            .subscribe((products) => {
+                this.products = products;
+            });
     }
 }
