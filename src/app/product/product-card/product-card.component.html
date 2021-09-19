@@ -1,11 +1,13 @@
-<div class="product-card">
-    <a routerLink="/products/{{ product.id }}">
-        <img class="img-responsive product-image" src="assets/images/{{ product.image }}" alt=" " />
-    </a>
-    <div class="product-card-promotion">
+<div class="card">
+    <div class="d-card__header">
         <span>15<label>%</label></span>
         <small>off</small>
     </div>
-    <p>Premium Denim Women's Hidden</p>
-    <span>{{ 179.0 | currency }} | <label class="cat-in"> </label> <a href="#">Add to Cart </a></span>
+    <a routerLink="/products/{{ product.id }}">
+        <img class="img-responsive card-img-top" src="assets/images/{{ product.image }}" alt=" " />
+    </a>
+    <p class="d-card__title card-title">Premium Denim Women's Hidden</p>
+    <div class="card-footer">
+        <span>{{ 179.0 | currency }} | <a class="btn btn-sm btn--orange" href="#">Add to Cart </a></span>
+    </div>
 </div>

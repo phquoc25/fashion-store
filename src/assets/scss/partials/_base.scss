@@ -1,3 +1,4 @@
+@use 'variables' as var;
 html,
 body {
     height: 100%;
@@ -26,4 +27,17 @@ h5,
 h6,
 p {
     margin: 0;
+}
+
+.btn--orange {
+    background-color: var.$dark-orange;
+    color: #fff !important;
+}
+
+.btn--orange:hover {
+    background-color: var.$light-orange;
+}
+
+.d-flex {
+    display: flex;
 }

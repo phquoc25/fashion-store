@@ -245,11 +245,11 @@
         bottom: 12px;
     }
 
-    .product-card-promotion {
+    .card__header {
         left: 9em;
     }
 
-    .product-card p {
+    .card p {
         font-size: 0.8em;
     }
 
@@ -441,7 +441,7 @@
         font-size: 1.6em;
     }
 
-    .product-card {
+    .card {
         width: 48%;
         margin-right: 2%;
         padding: 0 0 1em;
@@ -646,31 +646,31 @@
         padding: 1em 0 0;
     }
 
-    .product-card span {
+    .card span {
         font-size: 0.85em;
     }
 
-    .product-card-promotion {
+    .card__header {
         left: 6em;
         top: 0.5em;
         width: 40px;
         height: 40px;
     }
 
-    .product-card-promotion span {
+    .card__header span {
         font-size: 1.3em;
         height: 17px;
     }
 
-    .product-card-promotion span label {
+    .card__header span label {
         font-size: 9px;
     }
 
-    .product-card-promotion small {
+    .card__header small {
         font-size: 0.8em;
     }
 
-    .product-card p {
+    .card p {
         font-size: 0.9em;
         height: 25px;
         overflow: hidden;

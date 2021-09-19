@@ -1,34 +1,31 @@
-/*---product-card----*/
-.product-card {
+@use 'partials/variables' as var;
+/*---card----*/
+.d-card {
     position: relative;
     margin-right: 1.5%;
     padding: 0 0 2em;
 }
 
-.product-card p {
+.d-card p {
     color: #373737;
     font-size: 0.9em;
     font-weight: 600;
     padding: 8px 0 0;
 }
 
-.product-card span {
+.card-footer span {
     font-size: 1em;
-    color: #bc3726;
+    color: var.$dark-orange;
     font-weight: 600;
 }
 
-.product-card span a {
+.card-footer span a {
     color: #767676;
     text-decoration: none;
 }
 
-.product-card span a:hover {
-    color: #bc3726;
-}
-
 /*---product-promotion----*/
-.product-card-promotion {
+.d-card__header {
     background: #fff;
     border-radius: 100px;
     -webkit-border-radius: 100px;
@@ -43,27 +40,27 @@
     right: 10px;
 }
 
-.product-card-promotion span {
+.d-card__header span {
     font-size: 1.5em;
-    color: #bc3726;
+    color: var.$dark-orange;
     display: block;
     height: 24px;
     font-weight: 600;
 }
 
-.product-card-promotion small {
+.d-card__header small {
     font-size: 0.9em;
     color: #000;
     font-weight: 400;
     font-family: 'Libre Baskerville', serif;
 }
 
-.product-card-promotion span label {
+.d-card__header span label {
     font-size: 15px;
 }
 
-/*---product-image----*/
-.product-image {
+/*---card__image----*/
+.d-card__image {
     width: 100%;
 }
 
