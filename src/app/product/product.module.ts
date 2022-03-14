@@ -4,7 +4,6 @@ import { ProductCardComponent } from './product-card/product-card.component';
 import { ProductsListComponent } from './products-list/products-list.component';
 import { ProductDetailComponent } from './product-detail/product-detail.component';
 import { AppRoutingModule } from '../app-routing.module';
-import { ImgMagnifier } from 'ng-img-magnifier';
 import { ProductImgMagnifierComponent } from './product-img-magnifier/product-img-magnifier.component';
 import { ProductDetailTabsComponent } from './product-detail-tabs/product-detail-tabs.component';
 import { ProductShareComponent } from './product-share/product-share.component';
@@ -26,7 +25,7 @@ import { ColorSelectorComponent } from './color-selector/color-selector.componen
         CategorySelectorComponent,
         ColorSelectorComponent,
     ],
-    imports: [CommonModule, AppRoutingModule, ImgMagnifier, MatTabsModule, MatCheckboxModule],
+    imports: [CommonModule, AppRoutingModule, MatTabsModule, MatCheckboxModule],
     exports: [ProductsListComponent],
 })
 export class ProductModule {}
