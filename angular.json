@@ -104,18 +104,9 @@
                         ],
                         "scripts": []
                     }
-                },
-                "lint": {
-                    "builder": "@angular-eslint/builder:lint",
-                    "options": {
-                        "lintFilePatterns": ["src/**/*.ts", "src/**/*.html"]
-                    }
                 }
             }
         }
     },
-    "defaultProject": "fashion-store",
-    "cli": {
-        "defaultCollection": "@angular-eslint/schematics"
-    }
+    "defaultProject": "fashion-store"
 }
