@@ -12,6 +12,8 @@ import { MatTabsModule } from '@angular/material/tabs';
 import { MatCheckboxModule } from '@angular/material/checkbox';
 import { CategorySelectorComponent } from './category-selector/category-selector.component';
 import { ColorSelectorComponent } from './color-selector/color-selector.component';
+import { StoreModule } from '@ngrx/store';
+import * as fromProduct from '../store/product/product.reducer';
 
 @NgModule({
     declarations: [
@@ -25,7 +27,13 @@ import { ColorSelectorComponent } from './color-selector/color-selector.componen
         CategorySelectorComponent,
         ColorSelectorComponent,
     ],
-    imports: [CommonModule, AppRoutingModule, MatTabsModule, MatCheckboxModule],
+    imports: [
+        CommonModule,
+        AppRoutingModule,
+        MatTabsModule,
+        MatCheckboxModule,
+        StoreModule.forFeature(fromProduct.productsFeatureKey, fromProduct.reducer),
+    ],
     exports: [ProductsListComponent],
 })
 export class ProductModule {}
