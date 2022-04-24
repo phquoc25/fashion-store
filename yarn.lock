@@ -1568,6 +1568,25 @@
     "@jridgewell/resolve-uri" "^3.0.3"
     "@jridgewell/sourcemap-codec" "^1.4.10"
 
+"@ngrx/schematics@^13.1.0":
+  version "13.1.0"
+  resolved "https://registry.yarnpkg.com/@ngrx/schematics/-/schematics-13.1.0.tgz#28ca9ceaa3271d3c019f93194ac488bac9d768c3"
+  integrity sha512-u832wAllTSF5Nivs/XoYL+nhKd6RKT8JY+CUiUXjfe+lX9EyRRfHXmolXG60g6a681HQs/2YT0fs4cVtE94HdA==
+
+"@ngrx/store-devtools@^13.1.0":
+  version "13.1.0"
+  resolved "https://registry.yarnpkg.com/@ngrx/store-devtools/-/store-devtools-13.1.0.tgz#2bea7d6e4e0e85f23062ff07068e4640f59abf70"
+  integrity sha512-HAF2q1qk7n0Q3rkHncdXIokGXbPFKWwmfhGFS9pnq63FScgPgHjNXSlPmwgycb+LqDvDR4C8f1HSbPhOb6I29w==
+  dependencies:
+    tslib "^2.0.0"
+
+"@ngrx/store@^13.1.0":
+  version "13.1.0"
+  resolved "https://registry.yarnpkg.com/@ngrx/store/-/store-13.1.0.tgz#40665a09f673d64e9b6df3aed224ce51219151d3"
+  integrity sha512-2Phsd/CC5FcoS2VgC+Fo5VgfAUK3m7bjWTc8d6+h3UcoQpS3xyPnybGYifa/JYN1CFYmqypVDRWSMAgML2NU/A==
+  dependencies:
+    tslib "^2.0.0"
+
 "@ngtools/webpack@13.2.6":
   version "13.2.6"
   resolved "https://registry.yarnpkg.com/@ngtools/webpack/-/webpack-13.2.6.tgz#8fe9c54dce13ec291eeef352ed773b77d1d0bed0"
@@ -1715,6 +1734,11 @@
     tsconfig-paths "^3.9.0"
     tslib "^2.3.0"
     yargs-parser "20.0.0"
+
+"@popperjs/core@^2.9.3":
+  version "2.11.5"
+  resolved "https://registry.yarnpkg.com/@popperjs/core/-/core-2.11.5.tgz#db5a11bf66bdab39569719555b0f76e138d7bd64"
+  integrity sha512-9X2obfABZuDVLCgPK9aX0a/x4jaOEweTTWE2+9sr0Qqqevj2Uv5XorvusThmc9XGYpS9yI+fhh8RTafBtGposw==
 
 "@schematics/angular@13.2.6":
   version "13.2.6"
