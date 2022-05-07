@@ -31,57 +31,8 @@
 .header-grid-right {
     float: right;
     padding: 15px 0;
-}
-.header-grid-right label {
     color: #fff;
     font-size: 19px;
-    float: left;
-}
-a.sign-in {
-    color: #fff;
-    font-size: 1.1em;
-    text-decoration: none;
-    float: left;
-    width: 11%;
-    padding: 4px 0;
-    font-weight: 600;
-}
-.header-grid-right input[type='text'],
-.header-grid-right input[type='submit'] {
-    outline: none;
-    border: none;
-    background: #4a4a4a;
-    color: #ababab;
-    font-size: 0.9em;
-    padding: 5px 12px;
-    border-radius: 25px;
-    -webkit-border-radius: 25px;
-    -o-border-radius: 25px;
-    -moz-border-radius: 25px;
-    -ms-border-radius: 25px;
-    float: left;
-    width: 27%;
-    margin-right: 18px;
-}
-.header-grid-right input[type='submit'] {
-    background: #ea6a53;
-    width: 7%;
-    margin-right: 25px;
-    font-weight: 600;
-    color: #fff;
-}
-a.sign-up {
-    font-size: 1.1em;
-    text-decoration: none;
-    float: left;
-    padding: 4px 0;
-    font-weight: 600;
-    color: #ea6a53;
-    width: 14%;
-    padding: 4px 0px 4px 13px;
-}
-a.sign-up:hover {
-    color: #fd1e01;
 }
 
 /*----*/
