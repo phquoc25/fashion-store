@@ -116,6 +116,7 @@
     },
     "defaultProject": "fashion-store",
     "cli": {
+        "analytics": "eefe8828-a8f1-4c83-896e-6ad9426c14c6",
         "defaultCollection": "@angular-eslint/schematics"
     }
 }
