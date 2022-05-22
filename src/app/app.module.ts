@@ -15,6 +15,7 @@ import { BannerComponent } from './banner/banner.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { KeycloakAngularModule, KeycloakService } from 'keycloak-angular';
 import { initializeKeycloak } from './utility/app.init';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
     declarations: [
@@ -28,7 +29,14 @@ import { initializeKeycloak } from './utility/app.init';
         NavbarComponent,
         BannerComponent,
     ],
-    imports: [BrowserModule, AppRoutingModule, ProductModule, BrowserAnimationsModule, KeycloakAngularModule],
+    imports: [
+        BrowserModule,
+        AppRoutingModule,
+        ProductModule,
+        BrowserAnimationsModule,
+        KeycloakAngularModule,
+        HttpClientModule,
+    ],
     providers: [
         {
             provide: APP_INITIALIZER,

@@ -4,7 +4,7 @@ export function initializeKeycloak(keycloak: KeycloakService) {
     return () =>
         keycloak.init({
             config: {
-                url: 'http://localhost:8080',
+                url: 'http://localhost:8088',
                 realm: 'fashion-store',
                 clientId: 'fashion-store-client',
             },
